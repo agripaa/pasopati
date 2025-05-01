@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import dum1 from "@/assets/dum1.png";
-import dum2 from "@/assets/dum2.png";
-import dum3 from "@/assets/dum3.png";
+import dum1 from "@/assets/pasopati assets/used2.JPG";
+import dum2 from "@/assets/pasopati assets/used4.JPG";
+import dum3 from "@/assets/pasopati assets/used7.JPG";
 
 const AboutUs = () => {
   const [visibleSections, setVisibleSections] = useState<number[]>([]);
@@ -31,7 +31,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className='bg-white pb-8'>
+    <div className='bg-white pb-8' id='about'>
       <section className='pt-6 md:pt-40 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
         {/* Header */}
         <div className='flex flex-col w-full justify-center items-center'>
@@ -71,13 +71,17 @@ const AboutUs = () => {
               <div className='absolute left-[-18px] w-8 h-8 bg-[#639DF7] rounded-full'></div>
               <span className='text-xl font-bold text-[#2B313B]'>{item.year}</span>
               <div className='flex flex-col md:flex-row items-start gap-6 bg-white shadow-md p-6 rounded-lg w-full border border-gray-200'>
-                <Image src={item.img} alt={item.year} className='rounded-lg w-full md:w-[200px] h-auto' />
+              <Image
+                src={item.img}
+                alt={item.year}
+                className="rounded-lg w-full h-[120px] md:w-[220px] md:h-[220px] object-cover shrink-0"
+              />
                 <div className='flex flex-col gap-4 xl:gap-6'>
                     <span className='border-l-4 border-[#639DF7] pl-3 py-0 flex flex-col gap-1'>                        
-                        <h3 className='font-semibold text-xl text-[#2B313B]'>{item.title}</h3>
-                        <p className='text-gray-600 text-sm font-medium md:w-10/12'>{item.subtitle}</p>
+                        <h3 className='font-semibold text-2xl text-[#2B313B]'>{item.title}</h3>
+                        <p className='text-gray-600 text-md font-medium md:w-10/12'>{item.subtitle}</p>
                     </span>
-                  <p className='text-gray-600 text-md md:w-11/12'>{item.content}</p>
+                  <p className='text-gray-600 text-lg md:w-11/12'>{item.content}</p>
                 </div>
               </div>
             </div>

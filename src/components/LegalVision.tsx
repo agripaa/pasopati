@@ -20,8 +20,8 @@ const LegalVision = () => {
                 <RiFocus3Fill size={28} />
               </div>
               <div className="text-left flex flex-col gap-1">
-                <h3 className="text-xl font-semibold text-gray-600">Visi Kami</h3>
-                <p className="text-gray-700 text-sm md:text-base">
+                <h3 className="text-2xl font-semibold text-gray-600">Visi Kami</h3>
+                <p className="text-gray-700 text-sm md:text-lg">
                     Menjadi perusahaan terkemuka dalam penyediaan solusi teknologi dan komunikasi yang inovatif dan berkualitas
                     tinggi untuk sektor publik dan swasta, serta mendukung kemajuan infrastruktur Indonesia.
                 </p>
@@ -34,9 +34,9 @@ const LegalVision = () => {
                 <RiFocus2Line size={28} />
               </div>
               <div className="text-left flex flex-col gap-1">
-                <h3 className="text-xl font-semibold text-gray-600">Misi Kami</h3>
+                <h3 className="text-2xl font-semibold text-gray-600">Misi Kami</h3>
                 <ul className="text-gray-700 mt-4 flex flex-col gap-4 font-medium">
-                  <li className="flex justify-between w-full text-sm md:text-base pb-2">
+                  <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
@@ -45,7 +45,7 @@ const LegalVision = () => {
                       efisiensi, keamanan, dan kualitas operasional di berbagai sektor.
                     </span>
                   </li>
-                  <li className="flex justify-between w-full text-sm md:text-base pb-2">
+                  <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
@@ -54,7 +54,7 @@ const LegalVision = () => {
                       komunikasi di sektor publik, terutama di lingkungan pemerintahan
                     </span>
                   </li>
-                  <li className="flex justify-between w-full text-sm md:text-base pb-2">
+                  <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
@@ -63,7 +63,7 @@ const LegalVision = () => {
                       efisien, dan aman.
                     </span>
                   </li>
-                  <li className="flex justify-between w-full text-sm md:text-base pb-2">
+                  <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 

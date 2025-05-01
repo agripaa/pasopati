@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/hero1.png';
-import hero2 from '@/assets/hero2.png';
-import hero3 from '@/assets/hero3.png';
+import hero1 from '@/assets/pasopati assets/used9.JPG';
+import hero2 from '@/assets/pasopati assets/used10.JPG';
+import hero3 from '@/assets/pasopati assets/used16.JPG';
 
 const Products = () => {
   return (
-    <div className='bg-white pb-8'>
+    <div className='bg-white pb-8' id='products'>
       <section className='pt-36 md:pt-24 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
         {/* Header */}
         <div className='flex flex-col w-full'>
@@ -32,7 +32,7 @@ const Products = () => {
             <div className='w-full h-[400px]'>
               <Image src={hero2} alt="Pemeliharaan Sistem" className='rounded-full shadow-lg w-full h-full object-cover' />
             </div>
-            <div className='col-span-2 w-full h-[200px]'>
+            <div className='col-span-2 w-full h-[300px]'>
               <Image src={hero3} alt="Solusi Teknologi" className='rounded-xl shadow-lg w-full h-full object-cover' />
             </div>
           </div>

@@ -100,7 +100,7 @@ const Values = () => {
   return (
     <section className="py-16 px-6">
       <div className="max-w-[1440px] mx-auto text-center">
-        <div className='w-9/12 mx-auto'>
+        <div className='w-full md:w-9/12 mx-auto'>
             <div className='flex justify-center w-full'>
               <p className="text-[#639DF7] max-w-max px-4 bg-[#E7F0FD] text-center font-medium rounded-md py-2">
                 Company Values
@@ -109,7 +109,7 @@ const Values = () => {
             <h2 className="text-[2.5rem] font-semibold mt-2 text-black">
               Nilai – Nilai Perusahaan
             </h2>
-            <p className='text-left mt-2'>
+            <p className='text-center md:text-left mt-2'>
                 PT Pasopati Nusantara menjunjung tinggi nilai-nilai yang menjadi landasan dalam setiap kegiatan dan
                 keputusan bisnis perusahaan. Nilai-nilai ini tidak hanya menjadi pedoman dalam berinteraksi dengan
                 klien dan mitra, tetapi juga dalam membangun budaya perusahaan yang sehat dan produktif. Berikut
@@ -118,7 +118,7 @@ const Values = () => {
           </div>
 
         {/* Grid untuk huruf dan ikon */}
-        <div className="grid grid-cols-3 xl:grid-cols-6 gap-8 mt-10 w-full mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-8 mt-10 w-full mx-auto">
           {values.map((item, index) => {
             const IconComponent = item.icon;
             return (

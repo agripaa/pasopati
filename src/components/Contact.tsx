@@ -1,9 +1,9 @@
 import React from 'react';
-import { RiMapPin2Fill, RiWhatsappLine, RiMailCheckLine } from 'react-icons/ri';
+import { RiMapPin2Fill, RiWhatsappLine, RiMailCheckLine, RiPhoneFill } from 'react-icons/ri';
 
 const Contact = () => {
   return (
-    <section className="pt-6 md:pt-40 py-20 max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 px-6 min-h-[400px]">
+    <section className="pt-6 md:pt-40 py-20 max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 px-6 min-h-[400px]" id='contact'>
         
     {/* Bagian Kiri - Informasi Kontak */}
     <div className="flex flex-col gap-4 h-full flex-1">
@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
       </div>
       <h2 className="text-3xl font-semibold text-black text-left">
-        Konsultasi Sekarang
+        Hubungi Kami
       </h2>
       <div className='flex w-4/5'> 
         <RiMapPin2Fill className="text-[#3882F5] text-xl shrink-0 mr-4" />
@@ -21,14 +21,22 @@ const Contact = () => {
             Jl.Raya Gempol Kavling II No.19, RT.006/002, Gempol Kel, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820
         </p>
       </div>
+        <div className='flex'> 
+            <RiPhoneFill className="text-[#3882F5] text-xl shrink-0 mr-4" />
+            <p className="text-gray-700 text-md">02138853070</p>
+        </div>
 
       {/* Card Kontak - Dibuat Sejajar */}
       <div className="flex flex-col md:flex-row gap-4 mt-4 h-auto">
         {/* Nomor Telepon */}
-        <div className="flex items-center bg-white rounded-2xl p-4 w-full md:w-1/2 border border-[#DAE5EB] gap-4">
+        <div className="flex flex-col justify-between bg-white rounded-2xl p-4 w-full md:w-1/2 border border-[#DAE5EB] gap-4">
           <div className="flex items-center gap-2">
             <div className='flex justify-center bg-[#E7F0FD] p-2 rounded-full mr-2'>
                 <RiWhatsappLine className="text-black text-xl" />
+            </div>
+            <div className='flex flex-col'>
+              <h3 className="text-md font-semibold text-black">Nomor Telepon</h3>
+              <p className="text-gray-700 text-sm mt-1">+62-822-1144-9515</p>
             </div>
           </div>
           <button className="mt-auto text-black bg-[#E7F0FD] px-4 py-2 rounded-xl w-full">
@@ -37,11 +45,15 @@ const Contact = () => {
         </div>
 
         {/* Email */}
-        <div className="flex items-center bg-white rounded-2xl p-4 w-full md:w-1/2 border border-[#DAE5EB] gap-4">
+        <div className="flex flex-col bg-white rounded-2xl p-4 w-full md:w-1/2 border border-[#DAE5EB] gap-4">
           <div className="flex items-center gap-2">
             <div className='flex justify-center bg-[#E7F0FD] p-2 rounded-full mr-2'>
                 <RiMailCheckLine className="text-black text-xl" />
             </div>
+            <div className='flex flex-col'>
+                    <h3 className="text-md font-semibold text-black">Email</h3>
+                    <p className="text-gray-700 text-sm mt-1">corporate@pasopatinusantraa.com</p>
+                </div>
           </div>
           <button className="mt-auto text-black bg-[#E7F0FD] px-4 py-2 rounded-lg w-full">
             Contact Via Email

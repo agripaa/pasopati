@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/hero1.png';
-import hero2 from '@/assets/hero2.png';
-import hero3 from '@/assets/hero3.png';
+import hero1 from '@/assets/pasopati assets/used12.JPG';
+import hero2 from '@/assets/pasopati assets/used19.JPG';
+import hero3 from '@/assets/pasopati assets/used20.JPG';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 
 const Services = () => {
   return (
-    <div className='bg-white pb-8'>
-      <section className='pt-36 md:pt-24 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
+    <div className='bg-white pb-8' id='service'>
+      <section className='md:pt-24 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
         {/* Header */}
         <div className='flex flex-col w-full'>
           <div>
@@ -29,17 +29,17 @@ const Services = () => {
           <div className="hidden relative md:w-6/12 xl:5/12 w-full md:flex items-center justify-start">
             {/* Gambar 1 (Bawah Kiri) */}
             <div className="absolute w-[27%] z-10">
-                <Image src={hero1} alt="Gambar 1" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full" />
+                <Image src={hero1} alt="Gambar 1" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full h-[550px] object-cover" />
             </div>
 
             {/* Gambar 2 (Tengah - Monas) */}
             <div className="absolute md:top-[40%] xl:top-[30%] w-[27%] right-[42%] z-20">
-                <Image src={hero2} alt="Gambar 2" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full" />
+                <Image src={hero2} alt="Gambar 2" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full h-[550px] object-cover" />
             </div>
 
             {/* Gambar 3 (Atas Kanan) */}
             <div className="absolute right-[10%] w-[27%] z-10">
-                <Image src={hero3} alt="Gambar 3" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full" />
+                <Image src={hero3} alt="Gambar 3" className="rounded-full overflow-hidden shadow-lg shadow-gray-400 w-full h-[550px] object-cover" />
             </div>
           </div>
 

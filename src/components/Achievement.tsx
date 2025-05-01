@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/hero1.png';
-import hero2 from '@/assets/hero2.png';
+import hero1 from '@/assets/pasopati assets/used3.JPG';
+import hero2 from '@/assets/pasopati assets/used12.JPG';
 
 const Achievement = () => {
   return (
     <div className='bg-white pb-8'>
-      <section className='pt-36 md:pt-24 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
+      <section className='md:pt-24 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
         {/* Header */}
         <div className='flex flex-col w-full'>
           <div>
@@ -36,7 +36,7 @@ const Achievement = () => {
           {/* Text Section */}
             <div className='flex flex-col min-h-max w-full md:4/12 lg:w-8/12 gap-8'>
               <div className='flex flex-1 flex-col gap-4'>
-                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 w-9/12 font-semibold text-[#2B313B]'>
+                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Kerjasama dengan PT Telkom (2008)
                 </h3>
                 <p className='text-[#2B313B] md:text-xs lg:text-base'>
@@ -45,7 +45,7 @@ const Achievement = () => {
               </div>
 
               <div className='flex flex-1 flex-col gap-4'>
-                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 w-9/12 font-semibold text-[#2B313B]'>
+                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Peningkatan tekologi Telekomunikasi Dan Informasi (2012)
                 </h3>
                 <p className='text-[#2B313B] md:text-xs lg:text-base'>
@@ -54,7 +54,7 @@ const Achievement = () => {
               </div>
 
               <div className='flex flex-col gap-4'>
-                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 w-9/12 font-semibold text-[#2B313B]'>
+                <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Penyediaan Sarana Telekomunikasi (2012)
                 </h3>
                 <p className='text-[#2B313B] md:text-xs lg:text-base'>

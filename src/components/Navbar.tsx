@@ -11,9 +11,9 @@ const Navbar = () => {
   // Daftar menu navbar
   const navLinks = [
     { href: "/", label: "Beranda", icon: <RiHome2Line size={24} /> },
-    { href: "/about-us", label: "Tentang Kami", icon: <RiInformationLine size={24} /> },
-    { href: "/our-product", label: "Produk Kami", icon: <RiShoppingBag3Line size={24} /> },
-    { href: "/our-partner", label: "Layanan Kami", icon: <RiGroupLine size={24} /> },
+    { href: "/#about", label: "Tentang Kami", icon: <RiInformationLine size={24} /> },
+    { href: "/#products", label: "Produk Kami", icon: <RiShoppingBag3Line size={24} /> },
+    { href: "/#service", label: "Layanan Kami", icon: <RiGroupLine size={24} /> },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Navbar = () => {
           <Image src={logo} alt="logo" className="hidden md:block md:w-[150px]" />
 
           {/* Navbar Desktop */}
-          <ul className="hidden md:flex space-x-12">
+          <ul className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
               <li key={link.href} className="relative group">
                 <a
@@ -44,8 +44,8 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="/contact-us"
-                className="text-[#639DF7] bg-[#E7F0FD] md:px-3 md:py-3 lg:px-6 lg:py-4 rounded-2xl md:text-sm lg:text-base font-medium transition-all duration-300 hover:bg-[#b7c9e1]"
+                href="/#contact"
+                className="text-[#639DF7] bg-[#E7F0FD] md:px-3 md:py-2 lg:px-6 lg:py-4 rounded-2xl md:text-xs lg:text-base font-medium transition-all duration-300 hover:bg-[#b7c9e1]"
               >
                 Hubungi Kami
               </a>
@@ -71,7 +71,7 @@ const Navbar = () => {
         ))}
         <li>
           <a
-            href="/contact-us"
+            href="/#contact"
             className="flex flex-col items-center text-[#639DF7] bg-[#E7F0FD] px-4 py-2 rounded-xl font-medium transition-all duration-300 hover:bg-[#b7c9e1]"
           >
             <RiPhoneLine size={24} />
