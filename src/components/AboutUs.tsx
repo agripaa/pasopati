@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import dum1 from "@/assets/pasopati assets/used2.JPG";
-import dum2 from "@/assets/pasopati assets/used4.JPG";
-import dum3 from "@/assets/pasopati assets/used7.JPG";
+import dum1 from "@/assets/pasopati assets/used2.png";
+import dum2 from "@/assets/pasopati assets/used4.png";
+import dum3 from "@/assets/pasopati assets/used7.png";
 
 const AboutUs = () => {
   const [visibleSections, setVisibleSections] = useState<number[]>([]);

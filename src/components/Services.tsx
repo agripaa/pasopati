@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/pasopati assets/used12.JPG';
-import hero2 from '@/assets/pasopati assets/used19.JPG';
-import hero3 from '@/assets/pasopati assets/used20.JPG';
+import hero1 from '@/assets/pasopati assets/used12.png';
+import hero2 from '@/assets/pasopati assets/used19.png';
+import hero3 from '@/assets/pasopati assets/used20.png';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 
 const Services = () => {

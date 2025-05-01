@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/pasopati assets/used3.JPG';
-import hero2 from '@/assets/pasopati assets/used12.JPG';
+import hero1 from '@/assets/pasopati assets/used3.png';
+import hero2 from '@/assets/pasopati assets/used12.png';
 
 const Achievement = () => {
   return (

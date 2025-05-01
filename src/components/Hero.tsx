@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import hero1 from '@/assets/pasopati assets/used1.JPG';
-import hero2 from '@/assets/pasopati assets/used8.JPG';
-import hero3 from '@/assets/pasopati assets/used5.JPG';
+import hero1 from '@/assets/pasopati assets/used1.png';
+import hero2 from '@/assets/pasopati assets/used8.png';
+import hero3 from '@/assets/pasopati assets/used5.png';
 
 const Hero = () => {
     return (
