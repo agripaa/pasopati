@@ -10,12 +10,7 @@ const Achievement = () => {
         {/* Header */}
         <div className='flex flex-col w-full'>
           <div>
-            <div className='flex w-full'>
-              <p className="text-[#639DF7] max-w-max px-4 bg-[#E7F0FD] text-center font-medium rounded-md py-2">
-                Succes & Synergy
-              </p>
-            </div>
-            <h2 className="text-[2rem] font-semibold text-black">
+            <h2 className="text-4xl font-semibold text-black">
                 Capaian & Sinergi
             </h2>
           </div>
@@ -39,7 +34,7 @@ const Achievement = () => {
                 <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Kerjasama dengan PT Telkom (2008)
                 </h3>
-                <p className='text-[#2B313B] md:text-xs lg:text-base'>
+                <p className='text-[#2B313B] text-lg'>
                     Pada tahun 2008, PT Pasopati Nusantara menjalin kerjasama dengan PT Telkom Indonesia untuk menyediakan dan memelihara sistem telekomunikasi di lingkungan Unit Pelaksana Teknis Pemasyarakatan, Ditjenpas. Kerjasama ini bertujuan untuk memastikan kelancaran komunikasi serta keamanan sistem telekomunikasi di sektor pemasyarakatan. Sebagai mitra strategis, PT Pasopati Nusantara berperan dalam pengelolaan infrastruktur telekomunikasi guna mendukung operasional yang efisien.
                 </p>
               </div>
@@ -48,7 +43,7 @@ const Achievement = () => {
                 <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Peningkatan tekologi Telekomunikasi Dan Informasi (2012)
                 </h3>
-                <p className='text-[#2B313B] md:text-xs lg:text-base'>
+                <p className='text-[#2B313B] text-lg'>
                     Pada tahun 2012, PT Pasopati Nusantara memperluas kerjasamanya dengan Direktorat Jenderal Pemasyarakatan dengan fokus pada peningkatan teknologi telekomunikasi dan informasi. Salah satu inisiatif utamanya adalah penerapan Integrated Wartelsus, telepon khusus untuk lingkungan pemasyarakatan, serta Integrated Video CCTV di Kantor Pusat Ditjenpas. Proyek ini bertujuan untuk meningkatkan kualitas komunikasi danpengawasan, serta mendukung keamanan dan efisiensi operasional di seluruh sistem pemasyarakatan Indonesia.
                 </p>
               </div>
@@ -57,7 +52,7 @@ const Achievement = () => {
                 <h3 className='border-l-4 border-[#639DF7] pl-4 py-2 lg:text-2xl md:text-lg/5 text-lg w-full font-semibold text-[#2B313B]'>
                     Penyediaan Sarana Telekomunikasi (2012)
                 </h3>
-                <p className='text-[#2B313B] md:text-xs lg:text-base'>
+                <p className='text-[#2B313B] text-lg'>
                 Pada tahun yang sama, PT Pasopati Nusantara menunjuk PT Palapa Teknologi Indonesia sebagai
                 pelaksana teknis dalam penyediaan sarana telekomunikasi di Direktorat Jenderal Pemasyarakatan.
                 Langkah ini menjadikan PT Pasopati Nusantara sebagai Holding Company yang bertanggung jawab

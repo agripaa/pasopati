@@ -35,11 +35,11 @@ const LegalVision = () => {
               </div>
               <div className="text-left flex flex-col gap-1">
                 <h3 className="text-2xl font-semibold text-gray-600">Misi Kami</h3>
-                <ul className="text-gray-700 mt-4 flex flex-col gap-4 font-medium">
+                <ul className="text-gray-700 mt-4 flex flex-col gap-4">
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
-                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
+                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
                       Menyediakan layanan telekomunikasi dan teknologi informasi yang dapat meningkatkan
                       efisiensi, keamanan, dan kualitas operasional di berbagai sektor.
@@ -48,7 +48,7 @@ const LegalVision = () => {
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
-                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
+                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
                       Mengembangkan solusi berbasis teknologi yang mendukung pembangunan infrastruktur dan
                       komunikasi di sektor publik, terutama di lingkungan pemerintahan
@@ -57,7 +57,7 @@ const LegalVision = () => {
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
-                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
+                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
                       Berkolaborasi dengan mitra strategis untuk menciptakan sistem telekomunikasi yang lebih baik,
                       efisien, dan aman.
@@ -66,7 +66,7 @@ const LegalVision = () => {
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
                     <span className="flex items-start gap-2">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
-                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={20} /> 
+                        <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
                       Berkomitmen untuk memberikan layanan berkualitas tinggi dengan dukungan tim profesional
                       yang berpengalaman.
@@ -76,7 +76,6 @@ const LegalVision = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

@@ -8,14 +8,14 @@ const Hero = () => {
     return (
       <section className="pt-18 md:pt-24 lg:pt-36 py-24 flex-col-reverse flex md:flex-row items-center justify-around md:justify-between min-h-screen px-6 lg:max-w-[1440px] lg:mx-auto">
         {/* Bagian Kiri (Teks) */}
-        <div className="mt-12 md:mt-0 md:w-[45%] w-full flex flex-col gap-6">
+        <div className="mt-12 md:mt-0 md:w-6/12 w-full flex flex-col gap-6">
           <div className='w-full'>
-            <p className="text-[#639DF7] max-w-max px-4 hidden md:block md:px-2 md:text-base bg-[#E7F0FD] text-center font-normal rounded-md py-1">
+            <p className="text-[#639DF7] max-w-max px-4 hidden md:block md:px-2 text-lg bg-[#E7F0FD] text-center font-normal rounded-md py-1">
                 PT. Pasopati Nusantara
             </p>
           </div>
-          <h2 className="text-4xl md:text-2xl lg:text-6xl font-medium text-[#2B313B]">Kreativitas Tanpa Batas</h2>
-          <p className=" text-[#2B313B] text-sm lg:text-lg font-light">
+          <h2 className="text-4xl lg:text-6xl font-medium text-[#2B313B]">Kreativitas Tanpa Batas</h2>
+          <p className=" text-[#2B313B] text-base lg:text-lg font-light">
             <span className='font-medium text-[#639DF7]'>PT. Pasopati Nusantara</span> adalah perusahaan yang berdiri secara resmi pada tanggal 8 April 2005.
             Sejak awal berdirinya, PT Pasopati Nusantara telah aktif bergerak dalam berbagai sektor, seperti
             pembangunan, perdagangan besar, industri, serta layanan teknologi informasi dan komunikasi.

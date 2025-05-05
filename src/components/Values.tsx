@@ -101,15 +101,10 @@ const Values = () => {
     <section className="py-16 px-6">
       <div className="max-w-[1440px] mx-auto text-center">
         <div className='w-full md:w-9/12 mx-auto'>
-            <div className='flex justify-center w-full'>
-              <p className="text-[#639DF7] max-w-max px-4 bg-[#E7F0FD] text-center font-medium rounded-md py-2">
-                Company Values
-              </p>
-            </div>
             <h2 className="text-[2.5rem] font-semibold mt-2 text-black">
               Nilai – Nilai Perusahaan
             </h2>
-            <p className='text-center md:text-left mt-2'>
+            <p className='text-center text-lg md:text-left mt-4'>
                 PT Pasopati Nusantara menjunjung tinggi nilai-nilai yang menjadi landasan dalam setiap kegiatan dan
                 keputusan bisnis perusahaan. Nilai-nilai ini tidak hanya menjadi pedoman dalam berinteraksi dengan
                 klien dan mitra, tetapi juga dalam membangun budaya perusahaan yang sehat dan produktif. Berikut
