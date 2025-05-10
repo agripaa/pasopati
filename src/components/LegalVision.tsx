@@ -21,7 +21,7 @@ const LegalVision = () => {
               </div>
               <div className="text-left flex flex-col gap-1">
                 <h3 className="text-2xl font-semibold text-gray-600">Visi Kami</h3>
-                <p className="text-gray-700 text-sm md:text-lg">
+                <p className="text-gray-700 text-base md:text-lg">
                     Menjadi perusahaan terkemuka dalam penyediaan solusi teknologi dan komunikasi yang inovatif dan berkualitas
                     tinggi untuk sektor publik dan swasta, serta mendukung kemajuan infrastruktur Indonesia.
                 </p>
@@ -37,7 +37,7 @@ const LegalVision = () => {
                 <h3 className="text-2xl font-semibold text-gray-600">Misi Kami</h3>
                 <ul className="text-gray-700 mt-4 flex flex-col gap-4">
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
-                    <span className="flex items-start gap-2">
+                    <span className="flex items-start gap-2 text-base">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
@@ -46,7 +46,7 @@ const LegalVision = () => {
                     </span>
                   </li>
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
-                    <span className="flex items-start gap-2">
+                    <span className="flex items-start gap-2 text-base">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
@@ -55,7 +55,7 @@ const LegalVision = () => {
                     </span>
                   </li>
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
-                    <span className="flex items-start gap-2">
+                    <span className="flex items-start gap-2 text-base">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>
@@ -64,7 +64,7 @@ const LegalVision = () => {
                     </span>
                   </li>
                   <li className="flex justify-between w-full text-sm md:text-lg pb-2">
-                    <span className="flex items-start gap-2">
+                    <span className="flex items-start gap-2 text-base">
                       <div className='justify-center flex  bg-[#E7F0FD] p-[4px] rounded-full'>
                         <RiCheckboxCircleFill className="text-[#3882F5] shrink-0" size={25} /> 
                       </div>

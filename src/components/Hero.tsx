@@ -14,9 +14,9 @@ const Hero = () => {
                 PT. Pasopati Nusantara
             </p>
           </div>
-          <h2 className="text-4xl lg:text-6xl font-medium text-[#2B313B]">Kreativitas Tanpa Batas</h2>
+          <h2 className="text-[2.7rem] lg:text-6xl font-semibold text-[#2B313B]">Kreativitas Tanpa Batas</h2>
           <p className=" text-[#2B313B] text-base lg:text-lg font-light">
-            <span className='font-medium text-[#639DF7]'>PT. Pasopati Nusantara</span> adalah perusahaan yang berdiri secara resmi pada tanggal 8 April 2005.
+            <span className='font-semibold text-[#639DF7]'>PT. Pasopati Nusantara</span> adalah perusahaan yang berdiri secara resmi pada tanggal 8 April 2005.
             Sejak awal berdirinya, PT Pasopati Nusantara telah aktif bergerak dalam berbagai sektor, seperti
             pembangunan, perdagangan besar, industri, serta layanan teknologi informasi dan komunikasi.
           </p>

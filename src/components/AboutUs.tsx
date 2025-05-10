@@ -69,7 +69,7 @@ const AboutUs = () => {
               <Image
                 src={item.img}
                 alt={item.year}
-                className="rounded-lg w-full h-[120px] md:w-[220px] md:h-[220px] object-cover shrink-0"
+                className="rounded-lg w-full h-[200px] md:w-[220px] md:h-[220px] object-cover shrink-0"
               />
                 <div className='flex flex-col gap-4 xl:gap-6'>
                     <span className='border-l-4 border-[#639DF7] pl-3 py-0 flex flex-col gap-1'>                        
