@@ -56,34 +56,6 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-
-      {/* Navbar Mobile */}
-      <ul className="flex md:hidden justify-around items-center bg-white shadow-lg py-3 fixed bottom-0 w-full pointer-events-auto">
-        {navLinks.map((link) => (
-          <li key={link.href}>
-            <Link
-              href={link.href}
-              passHref
-              className={`flex flex-col items-center text-[#7D91AE] hover:text-black transition-all duration-300 ${
-                pathname === link.href ? "text-black font-semibold" : ""
-              }`}
-            >
-              {link.icon}
-              <span className="text-xs mt-1">{link.label}</span>
-            </Link>
-          </li>
-        ))}
-        <li>
-          <Link
-            href="/#contact"
-            passHref
-            className="flex flex-col items-center text-[#639DF7] bg-[#E7F0FD] px-4 py-2 rounded-xl font-medium transition-all duration-300 hover:bg-[#b7c9e1]"
-          >
-            <RiPhoneLine size={24} />
-            <span className="text-xs mt-1">Hubungi</span>
-          </Link>
-        </li>
-      </ul>
     </nav>
   );
 };
