@@ -2,10 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { RiHome2Line, RiInformationLine, RiShoppingBag3Line, RiGroupLine } from "react-icons/ri";
+// import { RiHome2Line, RiInformationLine, RiShoppingBag3Line, RiGroupLine } from "react-icons/ri";
 import logo from "@/assets/pasopati.png";
-import Link from "next/link"; // Import Link from next/link
-
+// import Link from "next/link"; // Import Link from next/link
 const Navbar = () => {
   const pathname = usePathname();
 
