@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import hero1 from '@/assets/pasopati assets/used9.png';
-import hero2 from '@/assets/pasopati assets/used10.png';
-import hero3 from '@/assets/pasopati assets/used16.png';
+import hero1 from '@/assets/hero1.png';
+import hero2 from '@/assets/hero2.png';
+import hero3 from '@/assets/hero3.png';
 
 const Products = () => {
   return (
@@ -11,7 +11,7 @@ const Products = () => {
         {/* Header */}
         <div className='flex flex-col w-full'>
           <div>
-            <h2 className="text-4xl font-semibold text-black">
+            <h2 className="text-5xl md:text-6xl font-semibold text-black">
               Produk & Layanan Kami
             </h2>
           </div>
@@ -35,26 +35,26 @@ const Products = () => {
           {/* Text Section */}
           <div className='w-full md:w-7/12 flex flex-col justify-between min-h-max'>
             <div className='flex-1 flex flex-col gap-4 justify-start w-full'>
-              <h3 className='font-medium text-2xl xl:text-3xl text-[#3D3D3D] mt-4'>Pembangunan Infrastruktur Telekomunikasi</h3>
-              <p className='text-gray-600 text-lg border-b border-[#DEDEDE] pb-5'>
+              <h3 className='font-semibold text-2xl lg:text-3xl text-gray-900 mt-4'>Pembangunan Infrastruktur Telekomunikasi</h3>
+              <p className='text-gray-800 text-xl border-b border-[#DEDEDE] pb-5'>
                 Penyediaan dan pembangunan infrastruktur telekomunikasi untuk berbagai sektor, khususnya di lingkungan pemerintahan dan pemasyarakatan.
               </p>
             </div>
             <div className='flex-1 flex flex-col justify-start gap-4 w-full'>
-              <h3 className='font-medium text-2xl xl:text-3xl text-[#3D3D3D] mt-4'>Pemeliharaan dan Perawatan Sistem Telekomunikasi</h3>
-              <p className='text-gray-600 text-lg border-b border-[#DEDEDE] pb-5'>
+              <h3 className='font-semibold text-2xl lg:text-3xl text-gray-900 mt-4'>Pemeliharaan dan Perawatan Sistem Telekomunikasi</h3>
+              <p className='text-gray-800 text-xl border-b border-[#DEDEDE] pb-5'>
                 Penyediaan dan pembangunan infrastruktur telekomunikasi untuk berbagai sektor, khususnya di lingkungan pemerintahan dan pemasyarakatan.
               </p>
             </div>
             <div className='flex-1 flex flex-col justify-start gap-4 w-full'>
-              <h3 className='font-medium text-2xl xl:text-3xl text-[#3D3D3D] mt-4'>Solusi Teknologi Informasi</h3>
-              <p className='text-gray-600 text-lg border-b border-[#DEDEDE] pb-5'>
+              <h3 className='font-semibold text-2xl lg:text-3xl text-gray-900 mt-4'>Solusi Teknologi Informasi</h3>
+              <p className='text-gray-800 text-xl border-b border-[#DEDEDE] pb-5'>
                 Pengembangan dan implementasi solusi teknologi informasi, termasuk sistem manajemen data, komunikasi internal, dan sistem keamanan berbasis teknologi.
               </p>
             </div>
             <div className='flex-1 flex flex-col justify-start gap-4 w-full'>
-              <h3 className='font-medium text-2xl xl:text-3xl text-[#3D3D3D] mt-4'>Integrated Wartelsus dan Video CCTV</h3>
-              <p className='text-gray-600 text-lg pb-5'>
+              <h3 className='font-semibold text-2xl lg:text-3xl text-gray-900 mt-4'>Integrated Wartelsus dan Video CCTV</h3>
+              <p className='text-gray-800 text-xl pb-5'>
                 Pengembangan dan penyediaan sistem komunikasi dan pengawasan di lingkungan pemasyarakatan, seperti wartel khusus (Wartelsus) dan integrasi sistem video CCTV untuk meningkatkan keamanan dan pengawasan.
               </p>
             </div>

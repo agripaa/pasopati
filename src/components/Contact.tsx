@@ -8,15 +8,15 @@ const Contact = () => {
         
     {/* Bagian Kiri - Informasi Kontak */}
     <div className="flex flex-col gap-4 h-full flex-1">
-      <h2 className="text-3xl font-semibold text-black text-left">
+      <h2 className="text-4xl font-semibold text-black text-left">
         Hubungi Kami
       </h2>
       <div className='flex'> 
-        <RiBuildingFill className="text-[#3882F5] text-xl shrink-0 mr-4" />
+        <RiBuildingFill className="text-[#3882F5] text-2xl shrink-0 mr-4" />
         <p className="text-gray-700 text-md">GRAHA PASOPATI NUSANTARA</p>
       </div>
       <div className='flex w-4/5'> 
-        <RiMapPin2Fill className="text-[#3882F5] text-xl shrink-0 mr-4" />
+        <RiMapPin2Fill className="text-[#3882F5] text-2xl shrink-0 mr-4" />
         <span className="flex flex-col tracking-[0.0025em]">
           <p className="text-gray-700 text-base">Jl.Raya Gempol Kavling II</p>
           <p className="text-gray-700 text-base">Gempol Kel, Ceger, Kec. Cipayung,</p>
@@ -24,7 +24,7 @@ const Contact = () => {
         </span>
       </div>
         <div className='flex'> 
-            <RiPhoneFill className="text-[#3882F5] text-xl shrink-0 mr-4" />
+            <RiPhoneFill className="text-[#3882F5] text-2xl shrink-0 mr-4" />
             <p className="text-gray-700 text-md">02138853070</p>
         </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="flex flex-col bg-white rounded-2xl p-4 w-full md:w-1/2 border border-[#DAE5EB] gap-4">
           <div className="flex items-center gap-2">
             <div className='flex justify-center bg-[#E7F0FD] p-2 rounded-full mr-2'>
-                <RiMailCheckLine className="text-black text-xl" />
+                <RiMailCheckLine className="text-black text-2xl" />
             </div>
             <div className='flex flex-col'>
                     <h3 className="text-md font-semibold text-black">Email</h3>

@@ -10,12 +10,12 @@ const Navbar = () => {
   const pathname = usePathname();
 
   // Daftar menu navbar
-  const navLinks = [
-    { href: "/", label: "Beranda", icon: <RiHome2Line size={24} /> },
-    { href: "/#about", label: "Tentang Kami", icon: <RiInformationLine size={24} /> },
-    { href: "/#products", label: "Produk Kami", icon: <RiShoppingBag3Line size={24} /> },
-    { href: "/#service", label: "Layanan Kami", icon: <RiGroupLine size={24} /> },
-  ];
+  // const navLinks = [
+  //   { href: "/", label: "Beranda", icon: <RiHome2Line size={24} /> },
+  //   { href: "/#about", label: "Tentang Kami", icon: <RiInformationLine size={24} /> },
+  //   { href: "/#products", label: "Produk Kami", icon: <RiShoppingBag3Line size={24} /> },
+  //   { href: "/#service", label: "Layanan Kami", icon: <RiGroupLine size={24} /> },
+  // ];
 
   return (
     <nav className="fixed bottom-0 md:top-0 left-0 w-full z-50 pointer-events-none">
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Image src={logo} alt="logo" className="hidden md:block md:w-[150px]" />
 
           {/* Navbar Desktop */}
-          <ul className="hidden md:flex space-x-8">
+          {/* <ul className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
               <li key={link.href} className="relative group">
                 <Link
@@ -53,7 +53,7 @@ const Navbar = () => {
                 Hubungi Kami
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </nav>

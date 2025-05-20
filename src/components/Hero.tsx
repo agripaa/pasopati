@@ -1,23 +1,24 @@
 import Image from 'next/image';
 import React from 'react';
-import hero1 from '@/assets/pasopati assets/used1.png';
-import hero2 from '@/assets/pasopati assets/used8.png';
-import hero3 from '@/assets/pasopati assets/used5.png';
+import hero1 from '@/assets/hero1.png';
+import hero2 from '@/assets/hero2.png';
+import hero3 from '@/assets/hero3.png';
+import Link from 'next/link';
 
 const Hero = () => {
     return (
-      <section className="pt-18 md:pt-24 lg:pt-36 py-24 flex-col-reverse flex md:flex-row items-center justify-around md:justify-between min-h-screen px-6 lg:max-w-[1440px] lg:mx-auto">
+      <section className="pt-18 md:pt-24 py-24 flex-col-reverse flex md:flex-row items-center justify-around md:justify-between min-h-screen px-6 lg:max-w-[1440px] lg:mx-auto">
         {/* Bagian Kiri (Teks) */}
         <div className="mt-12 md:mt-0 md:w-6/12 w-full flex flex-col gap-6">
           <div className='w-full'>
-            <p className="text-[#639DF7] max-w-max px-4 hidden md:block md:px-2 text-lg bg-[#E7F0FD] text-center font-normal rounded-md py-1">
+            <p className="text-[#639DF7] max-w-max px-4 hidden md:block md:px-2 text-lg bg-[#E7F0FD] text-center font-medium rounded-md py-1">
                 PT. Pasopati Nusantara
             </p>
           </div>
           <h2 className="text-[2.7rem] lg:text-6xl font-semibold text-[#2B313B]">Kreativitas Tanpa Batas</h2>
-          <p className=" text-[#2B313B] text-base lg:text-lg font-light">
+          <p className=" text-[#2B313B] text-xl md:text-2xl">
             <span className='font-semibold text-[#639DF7]'>PT. Pasopati Nusantara</span> adalah perusahaan yang berdiri secara resmi pada tanggal 8 April 2005.
-            Sejak awal berdirinya, PT Pasopati Nusantara telah aktif bergerak dalam berbagai sektor, seperti
+            Sejak awal berdirinya, <span className='font-semibold'>PT Pasopati Nusantara</span> telah aktif bergerak dalam berbagai sektor, seperti
             pembangunan, perdagangan besar, industri, serta layanan teknologi informasi dan komunikasi.
           </p>
         </div>

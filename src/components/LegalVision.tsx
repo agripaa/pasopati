@@ -8,7 +8,7 @@ const LegalVision = () => {
         <div className="w-full flex flex-col items-center">
           <div className='flex justify-center w-full'>
           </div>
-          <h2 className="text-2xl md:text-[2.5rem] font-semibold mt-4 text-[#3D3D3D]">
+          <h2 className="text-5xl md:text-6xl font-semibold mt-4 text-[#3D3D3D]">
             Visi & Misi
           </h2>
 

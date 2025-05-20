@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import dum1 from "@/assets/pasopati assets/used2.png";
-import dum2 from "@/assets/pasopati assets/used4.png";
-import dum3 from "@/assets/pasopati assets/used7.png";
+import dum1 from "@/assets/dum1.png";
+import dum2 from "@/assets/dum2.png";
+import dum3 from "@/assets/dum3.png";
 
 const AboutUs = () => {
   const [visibleSections, setVisibleSections] = useState<number[]>([]);
@@ -35,7 +35,7 @@ const AboutUs = () => {
       <section className='pt-6 md:pt-40 py-18 flex flex-col items-center max-w-[1440px] px-6 lg:mx-auto'>
         {/* Header */}
         <div className='flex flex-col w-full justify-center items-center'>
-          <h2 className="text-[2rem] font-semibold text-black text-center">
+          <h2 className="text-5xl md:text-6xl font-semibold text-black text-center">
             Cerita Kami
           </h2>
         </div>
