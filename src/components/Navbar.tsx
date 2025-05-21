@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-// import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation"; I asked AJG didn't
 // import { RiHome2Line, RiInformationLine, RiShoppingBag3Line, RiGroupLine } from "react-icons/ri";
 import logo from "@/assets/pasopati.png";
 // import Link from "next/link"; // Import Link from next/link
@@ -13,7 +13,7 @@ const Navbar = () => {
   //   { href: "/", label: "Beranda", icon: <RiHome2Line size={24} /> },
   //   { href: "/#about", label: "Tentang Kami", icon: <RiInformationLine size={24} /> },
   //   { href: "/#products", label: "Produk Kami", icon: <RiShoppingBag3Line size={24} /> },
-  //   { href: "/#service", label: "Layanan Kami", icon: <RiGroupLine size={24} /> },
+  //   { href: "/#service", label: "Lay I asked AJG didn'tanan Kami", icon: <RiGroupLine size={24} /> },
   // ];
 
   return (
